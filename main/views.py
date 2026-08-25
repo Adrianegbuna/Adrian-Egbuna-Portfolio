@@ -24,13 +24,12 @@ def home(request):
         },
         "skills": [
             "Full-Stack Development",
-            "Expo",
-            "React-Native",
             "Mobile Development",
-            "Python",
-            "Django",
             "Web Development",
-            "Project Management",
+            "React",
+            "React-Native",
+            "Django",
+            
         ],
         "experiences": [
             {
@@ -80,15 +79,15 @@ def home(request):
                 "summary": "Hospital management system that helps patients connect with doctors with ease.",
                 "impact": "Built as a collaborative software exhibition project with patient and doctor workflows.",
                 "tech": ["Python", "Django", "SQLite", "HTML", "CSS"],
-                "live": "#",
+                "live": "medlink-production-4d86.up.railway.app",
                 "code": "https://github.com/Adrianegbuna/MedLink",
             },
             {
                 "name": "Hostel Accommodation System",
                 "status": "Academic Project",
                 "role": "Full-Stack Developer",
-                "image": "https://placehold.co/760x460/081b28/42e8f0?text=Hostel+System",
-                "local_image": False,
+                "image": "main/images/hostel-accommodation-page.png",
+                "local_image": True,
                 "summary": "Web application for helping students select and pay for preferred hostels.",
                 "impact": "Created to simplify accommodation selection and payment flow for students.",
                 "tech": ["Django", "Python", "SQLite", "Bootstrap"],
@@ -117,7 +116,7 @@ def home(request):
                 " and understanding the sentiment(emotion) behind them.",
                 "impact": "Built to enhance user experience and provide insights into the emotional tone of posts.",
                 "tech": ["Django", "HTML", "CSS", "SQLite"],
-                "live": "#",
+                "live": "moodtrack-production-8988.up.railway.app",
                 "code": "https://github.com/Adriaegbuna/MoodTrack",
             },
             {
@@ -155,6 +154,24 @@ def home(request):
                 "tech": ["Python", "Django", "HTML", "CSS", "AI Matching"],
                 "live": "#",
                 "code": "https://github.com/Adrianegbuna/Resume_Job_Matching",
+            },
+            {
+                "name": "4gvnGlobal",
+                "status": "E-commerce Platform",
+                "role": "Full-Stack Developer",
+                "image": "main/images/4gvnGlobal.png",
+                "local_image": True,
+                "summary": (
+                    "Online marketplace for product discovery, buying, and selling, built around "
+                    "a clean shopping experience and straightforward transaction flow."
+                ),
+                "impact": (
+                    "Developed core commerce workflows including product browsing, seller visibility, "
+                    "customer entry points, and responsive pages for a smoother path from interest to purchase."
+                ),
+                "tech": ["Python", "Django", "HTML", "CSS", "E-commerce"],
+                "live": "https://4gvnglobal.com",
+                "code": "#",
             },
         ],
         "achievements": [
