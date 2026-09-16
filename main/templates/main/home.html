@@ -71,16 +71,17 @@
             <div class="projects-list">
                 {% for project in projects %}
                     <article class="project">
-                        <a class="project-image" href="{{ project.live }}" target="_blank" rel="noreferrer">
-                            {% if project.local_image %}
-                                <img src="{% static project.image %}" alt="{{ project.name }} project preview">
-                            {% else %}
-                                <img src="{{ project.image }}" alt="{{ project.name }} project preview">
-                            {% endif %}
-                        </a>
+                        {% with live_url=project.live %}
+                            <a class="project-image" href="{{ live_url }}" target="_blank" rel="noreferrer">
+                                {% if project.local_image %}
+                                    <img src="{% static project.image %}" alt="{{ project.name }} project preview">
+                                {% else %}
+                                    <img src="{{ project.image }}" alt="{{ project.name }} project preview">
+                                {% endif %}
+                            </a>
                         <div class="project-body">
                             <div class="project-title-row">
-                                <h3><a href="{{ project.live }}" target="_blank" rel="noreferrer">{{ project.name }} <span aria-hidden="true">&nearr;</span></a></h3>
+                                <h3><a href="{{ live_url }}" target="_blank" rel="noreferrer">{{ project.name }} <span aria-hidden="true">&nearr;</span></a></h3>
                                 <span class="pill">{{ project.status }}</span>
                             </div>
                             <p class="meta">{{ project.role }}</p>
@@ -92,10 +93,11 @@
                                 {% endfor %}
                             </div>
                             <div class="project-links">
-                                <a href="{{ project.live }}" target="_blank" rel="noreferrer">Live</a>
+                                <a href="{{ live_url }}" target="_blank" rel="noreferrer">Live</a>
                                 <a href="{{ project.code }}" target="_blank" rel="noreferrer">Code</a>
                             </div>
                         </div>
+                        {% endwith %}
                     </article>
                 {% endfor %}
             </div>

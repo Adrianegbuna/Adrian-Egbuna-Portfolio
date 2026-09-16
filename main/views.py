@@ -79,7 +79,7 @@ def home(request):
                 "summary": "Hospital management system that helps patients connect with doctors with ease.",
                 "impact": "Built as a collaborative software exhibition project with patient and doctor workflows.",
                 "tech": ["Python", "Django", "SQLite", "HTML", "CSS"],
-                "live": "medlink-production-4d86.up.railway.app",
+                "live": "https://medlink-production-4d86.up.railway.app",
                 "code": "https://github.com/Adrianegbuna/MedLink",
             },
             {
@@ -116,7 +116,7 @@ def home(request):
                 " and understanding the sentiment(emotion) behind them.",
                 "impact": "Built to enhance user experience and provide insights into the emotional tone of posts.",
                 "tech": ["Django", "HTML", "CSS", "SQLite"],
-                "live": "moodtrack-production-8988.up.railway.app",
+                "live": "https://moodtrack-production-8988.up.railway.app",
                 "code": "https://github.com/Adriaegbuna/MoodTrack",
             },
             {
@@ -170,7 +170,7 @@ def home(request):
                     "customer entry points, and responsive pages for a smoother path from interest to purchase."
                 ),
                 "tech": ["Python", "Django", "HTML", "CSS", "E-commerce"],
-                "live": "https://4gvnglobal.com",
+                "live": "https://www.4gvnglobal.com",
                 "code": "#",
             },
         ],
