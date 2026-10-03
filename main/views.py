@@ -192,6 +192,24 @@ def home(request):
                 "live": "https://www.4gvnglobal.com",
                 "code": "#",
             },
+            {
+                "name": "News Breach",
+                "status": "Fact Checking Web Application",
+                "role": "Full-Stack Developer",
+                "image": "main/images/News Breach.png",
+                "local_image": True,
+                "summary": (
+                    "Fact-checking web application for detecting newspaper breaches, helping "
+                    "reviewers identify publications that violate press standards."
+                ),
+                "impact": (
+                    "Built tools for submitting, reviewing, and tracking breach reports so newspaper "
+                    "content can be assessed more clearly and consistently."
+                ),
+                "tech": ["JavaScript", "React Native", "HTML", "CSS"],
+                "live": "https://news-breach-production.up.railway.app",
+                "code": "#",
+            },
         ],
         "achievements": [
             {
