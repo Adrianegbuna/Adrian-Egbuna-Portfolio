@@ -10,8 +10,8 @@ def home(request):
             "name": "Adrian Immanuel Egbuna",
             "title": "Full-Stack Web & Mobile Developer",
             "summary": (
-                "Software engineer and full-stack web and mobile"
-                " developer building Django-powered backends,"
+                "Software Engineer and Full-stack Web and Mobile"
+                " Developer building Django-powered backends,"
                 " modern web applications, and cross-platform mobile"
                 " apps with React Native. "
                 "Passionate about creating practical, database-driven"
