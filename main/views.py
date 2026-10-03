@@ -10,8 +10,8 @@ def home(request):
             "name": "Adrian Immanuel Egbuna",
             "title": "Full-Stack Web & Mobile Developer",
             "summary": (
-                "Software engineering student and full-stack web and"
-                "mobile developer building Django-powered backends,"
+                "Software engineer and full-stack web and mobile"
+                " developer building Django-powered backends,"
                 " modern web applications, and cross-platform mobile"
                 " apps with React Native. "
                 "Passionate about creating practical, database-driven"
@@ -32,6 +32,25 @@ def home(request):
             
         ],
         "experiences": [
+            {
+                "date": "2026",
+                "role": "Software Developer",
+                "company": "Nigerian Press Council",
+                "description": (
+                    "Developing and maintaining a fact checking web application "
+                    "for detecting breaches in newspapers while implementing "
+                    "new features, and ensuring the security and performance "
+                    "of the software."
+                ),
+            },
+            {
+                "date": "2026",
+                "role": "Software App Developer",
+                "company": "RenewableZmart",
+                "description": (
+                    "Worked on the mobile app for Renewablezmart."
+                ),
+            },
             {
                 "date": "2025",
                 "role": "Software Engineering Bootcamp Participant",
